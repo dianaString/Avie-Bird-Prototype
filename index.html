@@ -22,14 +22,14 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="headShapeA">
                                     <img src="images/previews/img1--headShapeA.png" alt="headShapeA">
-                                    <span class="paintButton"></span>
+                                    <span class="paintBtn"></span>
                                 </div>
                                 <div class="item" data-id="headShapeB">
                                     <img src="images/previews/img2--headShapeB.png" alt="headShapeB">
-                                    <span class="paintButton"></span>
+                                    <span class="paintBtn hidden"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="headShapeA">
                                 <h4>Colors headShapeA</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#f9ece2"></span>
@@ -40,7 +40,7 @@
                                     <span class="color" ></span>
                                 </div>
                             </div>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="headShapeB">
                                 <h4>Colors headShapeB</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#795e5e"></span>
@@ -56,17 +56,17 @@
                     <li>
                         <article>
                             <h3>Fringe</h3>
-                            <figure class="figureItem">
+                            <figure class="figureItem" >
                                 <div class="item isSelected" data-id="fringeA">
                                     <img src="images/previews/img3--fringeA.png" alt="fringeA">
-                                    <span class="paintButton"></span>
+                                    <span class="paintBtn"></span>
                                 </div>
                                 <div class="item" data-id="fringeB">
                                     <img src="images/previews/img4--fringeB.png" alt="fringeB">
-                                    <span class="paintButton"></span>
+                                    <span class="paintBtn hidden"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="fringeA">
                                 <h4>Colors fringeA</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#f77f37"></span>
@@ -77,7 +77,7 @@
                                     <span class="color" ></span>
                                 </div>
                             </div>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="fringeB">
                                 <h4>Colors fringeB</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#de402b"></span>
@@ -96,14 +96,14 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="eyeA">
                                     <img src="images/previews/img5--eyeA.png" alt="eyeA">
-                                    <span class="paintButton"></span>
+                                    <span class="paintBtn"></span>
                                 </div>
                                 <div class="item" data-id="eyeB">
                                     <img src="images/previews/img6--eyeB.png" alt="eyeB">
-                                    <span class="paintButton"></span>
+                                    <span class="paintBtn hidden"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="eyeA">
                                 <h4>Colors eyeA</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#0f0000"></span>
@@ -114,7 +114,7 @@
                                     <span class="color" ></span>
                                 </div>
                             </div>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="eyeB">
                                 <h4>Colors eyeB</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#0f0000"></span>
@@ -133,9 +133,10 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="beak">
                                     <img src="images/previews/img7--beak.png" alt="beak">
+                                    <span class="paintBtn"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="beak">
                                 <h4>Colors beak</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#f4a570"></span>
@@ -159,9 +160,10 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="bodyBase">
                                     <img src="images/previews/img8--bodyBase.png" alt="bodyBase">
+                                    <span class="paintBtn"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="bodyBase">
                                 <h4>Colors bodyBase</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#6d888d"></span>
@@ -178,11 +180,22 @@
                         <article>
                             <h3>Tummy</h3>
                             <figure class="figureItem">
+                                <div class="item" data-id="none">
+                                    <img src="images/previews/img13--none.png" alt="">
+                                    <span class="paintBtn hidden"></span>
+                                </div>
                                 <div class="item isSelected" data-id="tummy">
                                     <img src="images/previews/img9--tummy.png" alt="tummy">
+                                    <span class="paintBtn"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <!-- <div class="paletteContainer semiHidden" data-id="none">
+                                <h4>Colors tummy</h4>
+                                <div class="colorPalette">
+                                    <span class="color" id="color1" data-bg-color="#ffdab2"></span>
+                                </div>
+                            </div> -->
+                            <div class="paletteContainer semiHidden" data-id="tummy">
                                 <h4>Colors tummy</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#ffdab2"></span>
@@ -201,9 +214,10 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="wings">
                                     <img src="images/previews/img10--wings.png" alt="wings">
+                                    <span class="paintBtn"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="wings">
                                 <h4>Colors wings</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#be914a"></span>
@@ -222,9 +236,10 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="tail">
                                     <img src="images/previews/img11--tail.png" alt="tail">
+                                    <span class="paintBtn"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="tail">
                                 <h4>Colors tail</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#787f4d"></span>
@@ -243,9 +258,10 @@
                             <figure class="figureItem">
                                 <div class="item isSelected" data-id="feet">
                                     <img src="images/previews/img12--feet.png" alt="feet">
+                                    <span class="paintBtn"></span>
                                 </div>
                             </figure>
-                            <div>
+                            <div class="paletteContainer semiHidden" data-id="feet">
                                 <h4>Colors feet</h4>
                                 <div class="colorPalette">
                                     <span class="color" id="color1" data-bg-color="#e2958d"></span>
@@ -267,32 +283,38 @@
         <span class="ancla"></span>
         <!-- feet -->
         <div class="feet">
-            <svg class="svg" id="feet" width="146" height="65">
+            <svg class="svg" data-id="feet" id="feet" width="146" height="65">
                 <use xlink:href="svg/lovebird.svg#feet"></use>
             </svg>
         </div>
         <!-- tail -->
         <div class="tail">
-            <svg class="svg" id="tail" width="56" height="59">
+            <svg class="svg" data-id="tail" id="tail" width="56" height="59">
                 <use xlink:href="svg/lovebird.svg#tail"></use>
             </svg>
         </div>
         <!-- bodyBase -->
         <div class="bodyBase">
-            <svg class="svg" id="bodyBaseA" width="188" height="269">
-                <use xlink:href="svg/lovebird.svg#bodyBaseA"></use>
+            <svg class="svg" data-id="bodyBase" id="bodyBase" width="188" height="269">
+                <use xlink:href="svg/lovebird.svg#bodyBase"></use>
             </svg>
         </div>
         <!-- wings -->
         <div class="wings">
-            <svg class="svg" id="wings" width="205" height="126">
+            <svg class="svg" data-id="wings" id="wings" width="205" height="126">
                 <use xlink:href="svg/lovebird.svg#wings"></use>
             </svg>
         </div>
         <!-- tummy -->
         <div class="tummy">
-            <svg class="svg hidden" id="tummy" width="165" height="166">
+            <svg class="svg " data-id="tummy" id="tummy" width="165" height="226">
                 <use xlink:href="svg/lovebird.svg#tummy"></use>
+            </svg>
+        </div>
+        <!-- none -->
+        <div class="none">
+            <svg class="svg " data-id="none" id="none" width="0" height="0">
+                <!-- <use xlink:href="svg/lovebird.svg#none"></use> -->
             </svg>
         </div>
         <!-- headShape -->
@@ -324,30 +346,20 @@
         </div>
         <!-- beak -->
         <div class="beak">
-            <svg class="svg" id="beak" width="47" height="53">
+            <svg class="svg" data-id="beak" id="beak" width="47" height="53">
                 <use xlink:href="svg/lovebird.svg#beak"></use>
             </svg>
         </div>
         <!-- do not touch -->
         <div class="doNotTouch">
-            <svg class="svg" id="eyeBorder" width="38" height="46">
+            <svg class="svg" data-id="eyeBorder" id="eyeBorder" width="38" height="46">
                 <use xlink:href="svg/lovebird.svg#eyeBorder"></use>
             </svg>
-            <svg class="svg" id="nose" width="45" height="30">
+            <svg class="svg" data-id="nose" id="nose" width="45" height="30">
                 <use xlink:href="svg/lovebird.svg#nose"></use>
             </svg>
         </div>
     </div>
-
-    
-    
-    
-
-    
-    
-
-
-
     <script src="js/main.js"></script>
 </body>
 </html>
