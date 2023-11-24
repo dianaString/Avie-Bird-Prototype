@@ -36,23 +36,26 @@ const handleItemClick = (ev) => {
         const itemDataId = item.getAttribute('data-id')
         const svgSameDataId = document.querySelector(`.svg[data-id="${itemDataId}"]`);
         
-        if (Items.length > 1){
-            if (item === clickedItem) {
-                item.classList.add('isSelected');
-                svgSameDataId.classList.remove('hidden');
+        if (Items.length > 1 && item === clickedItem) {
+            item.classList.add('isSelected');
+            svgSameDataId.classList.remove('hidden');
 
-                /* const paintButton = document.createElement('button');
+            /* let paintButton = item.querySelector('.paintButton');
+            if (!paintButton) {
+                paintButton = document.createElement('button');
                 paintButton.classList.add('paintButton');
                 paintButton.id = itemDataId;      
-                item.appendChild(paintButton); */
-
+                item.appendChild(paintButton);
             } else {
-                item.classList.remove('isSelected');
-                if (svgSameDataId) {
-                    svgSameDataId.classList.add('hidden');
-                }
+                document.remove('button');
+            } */
+        } else if (Items.length > 1) {
+            item.classList.remove('isSelected');
+            if (svgSameDataId) {
+                svgSameDataId.classList.add('hidden');
             }
         }
+
     });
     
 }
