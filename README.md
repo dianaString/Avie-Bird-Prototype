@@ -4,7 +4,7 @@ This is a HTML, CSS and JavaScript prototype of my personal project Avie Bird, i
 
 ### [Take a look at the prototype](https://github.com/dianaString/Avie-Bird-Prototype/settings/pages) 
 
-### [Go to the full project]
+### [Go to the full project](https://github.com/dianaString/Avie-Bird) 
   
 <br>
 
